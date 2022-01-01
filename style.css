@@ -1,0 +1,433 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+/***********************************************
+****************Grids*********************
+/*****************************************
+background-color: yellow;
+background-color: green;
+background-color: red;
+background-color: blue;
+
+*************************************/
+
+/*************************************************************************************************************
+***********************************----NAVEGADOR-----*********************************************************/
+.Seccion-Navegador {
+  padding: 1%;
+  background-color: yellow;
+}
+.Caja-Navegador {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding: 1%;
+  width: 100%;
+  height: 9rem;
+  background-color: green;
+}
+.Lista-Navegador {
+  display: flex;
+  list-style: none;
+  grid-column: 2;
+  font-size: 150%;
+  gap: 8%;
+  padding: 1%;
+  margin-left: 15%;
+  height: 100%;
+  background-color: red;
+}
+
+.link-navegador {
+  text-decoration: none;
+  color: black;
+}
+.Indice-Navegador {
+  padding: 0.1%;
+  background-color: rgba(0, 0, 255, 0.527);
+  font-size: 160%;
+}
+.Indice-Navegador-2 {
+  padding: 0.1%;
+  background-color: rgba(179, 179, 182, 0.384);
+  font-size: 160%;
+}
+.Indice-Navegador-3 {
+  padding: 0.1%;
+  background-color: rgba(46, 238, 142, 0.322);
+  font-size: 160%;
+}
+.Indice-Navegador-4 {
+  padding: 0.1%;
+  background-color: rgba(139, 62, 120, 0.452);
+  font-size: 160%;
+}
+
+.logo-navegador-tooth {
+  background-color: rgba(255, 251, 251, 0.774);
+  height: 100%;
+  width: 25%;
+  margin-left: 5%;
+}
+
+/*************************************************************************************************************
+***********************************----SECCION HEROE-----*********************************************************/
+.seccion-heroe {
+  background-color: rgb(39, 19, 212);
+  padding: 2%;
+  height: 120rem;
+}
+.caja-heroe {
+  display: grid;
+  grid-template-rows: 2fr 6fr;
+  background-color: red;
+  padding: 1%;
+  height: 100%;
+}
+.Texto-heroe {
+  background-color: rgb(25, 26, 27);
+  padding: 1%;
+  text-align: center;
+}
+.premisa-heroe {
+  font-size: 800%;
+  background-color: rgb(119, 253, 114);
+}
+.nombre-negocio {
+  font-size: 350%;
+  background-color: rgba(251, 255, 22, 0.301);
+  color: rgba(0, 0, 0, 0.493);
+  align-content: center;
+}
+.logo--nombre {
+  height: 10rem;
+  width: 18rem;
+}
+.premisa-heroe-2 {
+  font-size: 350%;
+  background-color: rgb(187, 207, 11);
+  color: rgba(0, 0, 0, 0.603);
+  text-align: center;
+}
+.texto-e-imagen {
+  background-color: rgb(59, 115, 236);
+  padding: 1%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 65%;
+  gap: 5rem;
+}
+
+.texto-heroe-2 {
+  background-color: rgb(166, 255, 22);
+  padding: 1%;
+  width: 100%;
+  height: 42%;
+  color: rgba(0, 0, 0, 0.61);
+  grid-column: 2;
+  grid-row: 1;
+}
+.texto-heroe-invitacion {
+  background-color: rgb(100, 36, 36);
+  padding: 1%;
+  text-align: center;
+  font-size: 700%;
+}
+.boton-heroe {
+  background-color: rgb(116, 25, 21);
+  margin-left: 37%;
+  padding: 2%;
+  font-size: 300%;
+  border-radius: 10%;
+  margin-top: 1%;
+}
+.link-empezemos:link,
+.link-empezemos:visited {
+  text-decoration: none;
+  color: rgba(228, 241, 241, 0.795);
+  transition: 1s;
+}
+
+.link-empezemos:hover,
+.link-empezemos:active {
+  cursor: pointer;
+  color: rgb(223, 183, 52);
+}
+
+.mascota {
+  background-color: darksalmon;
+  padding: 1%;
+  width: 105%;
+  height: 64%;
+  grid-column: 1;
+  grid-row: 1;
+}
+.mascota-super {
+  width: 100%;
+  height: 100%;
+}
+
+/*************************************************************************************************************
+***********************************----SECCION Cuerpo-----*********************************************************/
+.Seccion-cuerpo {
+  padding: 2%;
+  background-color: blueviolet;
+  height: 120rem;
+  width: 100%;
+}
+.caja-cuerpo {
+  padding: 1%;
+  background-color: chartreuse;
+  display: flex;
+  gap: 2%;
+  height: 50%;
+}
+.cartel-1 {
+  padding: 1% 1% 6% 1%;
+  background-color: crimson;
+  width: 100%;
+  height: 100%;
+}
+.cartel-2 {
+  padding: 1% 1% 6% 1%;
+  background-color: rgb(48, 26, 247);
+  width: 100%;
+  height: 100%;
+}
+.cartel-3 {
+  padding: 1% 1% 6% 1%;
+  background-color: rgb(29, 169, 204);
+  width: 100%;
+  height: 100%;
+}
+.especialidad {
+  width: 100%;
+  height: 100%;
+}
+.boton-especialidad {
+  padding: 2rem 6rem;
+  margin-left: 30%;
+  background-color: rgb(241, 168, 71);
+  border-radius: 9px;
+  margin-top: 10px;
+  transition: 1s;
+}
+
+.Link-Especialidad {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+}
+.boton-especialidad:hover,
+.boton-especialidad:active {
+  background-color: rgb(158, 81, 25);
+  transform: translateY(-8px);
+}
+/*************************************************************************************************************
+***********************************----SECCION Reservas-----*********************************************************/
+.reservas {
+  background-color: rgb(255, 14, 14);
+  padding: 1%;
+  height: 115rem;
+}
+.caja-reservas {
+  background-color: pink;
+  padding: 1%;
+  text-align: center;
+}
+.citas {
+  font-size: 400%;
+  background-color: chartreuse;
+  padding: 1%;
+}
+.citas2 {
+  font-size: 200%;
+  color: rgba(0, 0, 0, 0.753);
+  background-color: rgb(185, 72, 95);
+  padding: 1%;
+}
+.reserva-formulario {
+  background-color: darkolivegreen;
+  padding: 1%;
+  height: 85%;
+}
+.formulario {
+  background-color: darkslateblue;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  font-size: 300%;
+  height: 100%;
+  width: 100%;
+}
+.formulario-enviado {
+  background-color: crimson;
+  padding: 1%;
+  height: 79.5%;
+}
+.formulario-1 {
+  background-color: deeppink;
+  padding: 1%;
+}
+.formulario-2 {
+  background-color: rgb(132, 168, 146);
+  padding: 1%;
+}
+.formulario-3 {
+  background-color: rgb(28, 7, 112);
+  padding: 1%;
+}
+.formulario-4 {
+  background-color: deeppink;
+  padding: 1%;
+}
+.formulario-5 {
+  background-color: rgb(24, 218, 98);
+  padding: 1%;
+}
+.formulario-6 {
+  background-color: rgb(176, 214, 5);
+  padding: 1%;
+}
+#nombre {
+  margin-left: 1.4rem;
+}
+#correo {
+  margin-left: 3.3rem;
+}
+#fono {
+  margin-left: 14.5rem;
+}
+#espe {
+  margin-left: 9.7rem;
+}
+#Nombres-Completos {
+  padding: 2rem;
+  font-size: 70%;
+  margin-left: 0.6rem;
+}
+#Apellidos-Completos {
+  padding: 2rem;
+  font-size: 70%;
+  margin-left: 5px;
+}
+#email {
+  padding: 2rem;
+  font-size: 70%;
+  margin-left: 0.6rem;
+}
+#telefono {
+  padding: 2rem;
+  font-size: 70%;
+  margin-left: 0.6rem;
+}
+#Especialidad {
+  padding: 2rem;
+  font-size: 70%;
+  margin-left: 0.6rem;
+}
+#motivo {
+  padding: 5rem 11rem;
+  font-size: 90%;
+  text-align: justify;
+}
+.boton-envio {
+  background-color: peachpuff;
+  display: flex;
+  justify-content: center;
+}
+.Enviar {
+  padding: 2rem 6rem;
+  background-color: orange;
+  border-radius: 8px;
+  font-size: 60%;
+  transition: 3s;
+}
+.Enviar:hover,
+.Enviar:visited {
+  cursor: pointer;
+  transform: rotate3d(1, 5, -1, 360deg);
+}
+.caja-reserva-imagen {
+  background-color: rgb(179, 137, 100);
+  padding: 2%;
+  width: 100%;
+  height: 79.4%;
+  grid-column: 2;
+  grid-row: 1;
+}
+.super-tooth {
+  padding: 1%;
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+}
+/*************************************************************************************************************
+***********************************----SECCION Footer-----*********************************************************/
+.seccion-footer {
+  padding: 1%;
+  background-color: rgb(148, 148, 148);
+}
+.caja-footer {
+  padding: 2%;
+  background-color: rgba(255, 138, 255, 0.719);
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+}
+.caja-footer-1 {
+  padding: 2%;
+  background-color: rgba(193, 255, 21, 0.685);
+  grid-column: 1;
+  font-size: 190%;
+}
+.lista-footer {
+  list-style: none;
+}
+.caja-footer-2 {
+  padding: 2%;
+  background-color: rgba(16, 255, 223, 0.918);
+  grid-column: 2;
+  font-size: 190%;
+  text-align: center;
+}
+.caja-red-social {
+  padding: 2%;
+  background-color: rgba(193, 255, 21, 0.685);
+  font-size: 170%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 0, 255);
+}
+.caja-footer-3 {
+  padding: 1%;
+  background-color: rgba(248, 31, 183, 0.692);
+  grid-column: 3;
+  font-size: 190%;
+  text-align: right;
+}
+.copyright {
+  padding: 1%;
+  background-color: rgba(209, 22, 22, 0.801);
+  text-align: center;
+  font-size: 150%;
+  color: rgba(0, 0, 0, 0.534);
+}
+.logo-cuentanos {
+  color: rgb(0, 4, 250);
+  margin-right: 1rem;
+}
+.caja-logo-footer {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo-footer {
+  height: 3.5rem;
+  background-color: rgba(255, 255, 255, 0.815);
+}

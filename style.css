@@ -20,27 +20,28 @@ background-color: blue;
 /*************************************************************************************************************
 ***********************************----NAVEGADOR-----*********************************************************/
 .Seccion-Navegador {
-  padding: 1%;
+  padding: 0.5%;
   background-color: yellow;
 }
 .Caja-Navegador {
   display: grid;
   grid-template-columns: 2fr 3fr;
-  padding: 1%;
+  padding: 0.5%;
   width: 100%;
-  height: 9rem;
+  height: 80%;
   background-color: green;
 }
 .Lista-Navegador {
   display: flex;
   list-style: none;
   grid-column: 2;
-  font-size: 130%;
+  font-size: 150%;
   gap: 8%;
   padding: 1%;
   margin-left: 15%;
-  height: 67%;
+  height: 50%;
   background-color: red;
+  margin-top: 3%;
 }
 
 .link-navegador {
@@ -70,9 +71,10 @@ background-color: blue;
 
 .logo-navegador-tooth {
   background-color: rgba(255, 251, 251, 0.774);
-  height: 67%;
+  height: 80%;
   width: 25%;
   margin-left: 5%;
+  margin-top: 2%;
 }
 
 /*************************************************************************************************************
@@ -80,7 +82,7 @@ background-color: blue;
 .seccion-heroe {
   background-color: rgb(39, 19, 212);
   padding: 2%;
-  height: 120rem;
+  height: 110rem;
 }
 .caja-heroe {
   display: grid;
@@ -107,6 +109,7 @@ background-color: blue;
 .logo--nombre {
   height: 10rem;
   width: 18rem;
+  margin-top: 1%;
 }
 .premisa-heroe-2 {
   font-size: 350%;

@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: 0 2%;
   margin: 0;
   box-sizing: border-box;
 }
@@ -14,14 +14,17 @@ background-color: yellow;
 background-color: green;
 background-color: red;
 background-color: blue;
+background-color: rgb(252, 219, 129);
+background-color: rgba(27, 218, 43, 0.288);
+ background-color: rgba(245, 238, 140, 0.925);
 
 *************************************/
 
 /*************************************************************************************************************
 ***********************************----NAVEGADOR-----*********************************************************/
 .Seccion-Navegador {
-  padding: 0.5%;
-  background-color: yellow;
+  padding: 1%;
+  background-color: rgba(252, 219, 129, 0.37);
 }
 .Caja-Navegador {
   display: grid;
@@ -29,7 +32,7 @@ background-color: blue;
   padding: 0.5%;
   width: 100%;
   height: 80%;
-  background-color: green;
+  /*background-color: green;*/
 }
 .Lista-Navegador {
   display: flex;
@@ -40,7 +43,7 @@ background-color: blue;
   padding: 1%;
   margin-left: 15%;
   height: 50%;
-  background-color: red;
+  /*background-color: red;*/
   margin-top: 3%;
 }
 
@@ -50,27 +53,27 @@ background-color: blue;
 }
 .Indice-Navegador {
   padding: 0.1%;
-  background-color: rgba(0, 0, 255, 0.527);
+  /*background-color: rgba(0, 0, 255, 0.527);*/
   font-size: 160%;
 }
 .Indice-Navegador-2 {
   padding: 0.1%;
-  background-color: rgba(179, 179, 182, 0.384);
+  /*background-color: rgba(179, 179, 182, 0.384);*/
   font-size: 160%;
 }
 .Indice-Navegador-3 {
   padding: 0.1%;
-  background-color: rgba(46, 238, 142, 0.322);
+  /*background-color: rgba(46, 238, 142, 0.322);*/
   font-size: 160%;
 }
 .Indice-Navegador-4 {
   padding: 0.1%;
-  background-color: rgba(139, 62, 120, 0.452);
+  /*background-color: rgba(139, 62, 120, 0.452);*/
   font-size: 160%;
 }
 
 .logo-navegador-tooth {
-  background-color: rgba(255, 251, 251, 0.774);
+  /*background-color: rgba(255, 251, 251, 0.774);*/
   height: 80%;
   width: 25%;
   margin-left: 5%;
@@ -80,29 +83,27 @@ background-color: blue;
 /*************************************************************************************************************
 ***********************************----SECCION HEROE-----*********************************************************/
 .seccion-heroe {
-  background-color: rgb(39, 19, 212);
-  padding: 2%;
+  background-color: rgba(27, 218, 43, 0.288);
+  padding: 4%;
   height: 110rem;
 }
 .caja-heroe {
   display: grid;
   grid-template-rows: 2fr 6fr;
-  background-color: red;
+  /*background-color: red;*/
   padding: 1%;
   height: 100%;
 }
 .Texto-heroe {
-  background-color: rgb(25, 26, 27);
   padding: 1%;
   text-align: center;
+  background-color: rgba(230, 209, 115, 0.315);
 }
 .premisa-heroe {
   font-size: 800%;
-  background-color: rgb(119, 253, 114);
 }
 .nombre-negocio {
   font-size: 350%;
-  background-color: rgba(251, 255, 22, 0.301);
   color: rgba(0, 0, 0, 0.493);
   align-content: center;
 }
@@ -113,12 +114,12 @@ background-color: blue;
 }
 .premisa-heroe-2 {
   font-size: 350%;
-  background-color: rgb(187, 207, 11);
+  /*background-color: rgb(187, 207, 11);*/
   color: rgba(0, 0, 0, 0.603);
   text-align: center;
 }
 .texto-e-imagen {
-  background-color: rgb(59, 115, 236);
+  /*background-color: rgb(59, 115, 236);*/
   padding: 1%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -127,7 +128,7 @@ background-color: blue;
 }
 
 .texto-heroe-2 {
-  background-color: rgb(166, 255, 22);
+  /*background-color: rgb(166, 255, 22);*/
   padding: 1%;
   width: 100%;
   height: 42%;
@@ -136,13 +137,13 @@ background-color: blue;
   grid-row: 1;
 }
 .texto-heroe-invitacion {
-  background-color: rgb(100, 36, 36);
+  /*background-color: rgb(100, 36, 36);*/
   padding: 1%;
   text-align: center;
   font-size: 700%;
 }
 .boton-heroe {
-  background-color: rgb(116, 25, 21);
+  background-color: rgba(238, 200, 119, 0.966);
   margin-left: 37%;
   padding: 2%;
   font-size: 300%;
@@ -152,18 +153,18 @@ background-color: blue;
 .link-empezemos:link,
 .link-empezemos:visited {
   text-decoration: none;
-  color: rgba(228, 241, 241, 0.795);
+  color: rgb(87, 41, 41);
   transition: 1s;
 }
 
 .link-empezemos:hover,
 .link-empezemos:active {
   cursor: pointer;
-  color: rgb(223, 183, 52);
+  color: rgb(29, 29, 29);
 }
 
 .mascota {
-  background-color: darksalmon;
+  /*background-color: darksalmon;*/
   padding: 1%;
   width: 105%;
   height: 64%;
@@ -179,32 +180,32 @@ background-color: blue;
 ***********************************----SECCION Cuerpo-----*********************************************************/
 .Seccion-cuerpo {
   padding: 2%;
-  background-color: blueviolet;
+  background-color: rgba(39, 206, 53, 0.192);
   height: 120rem;
   width: 100%;
 }
 .caja-cuerpo {
   padding: 1%;
-  background-color: chartreuse;
+  background-color: rgba(103, 194, 126, 0.103);
   display: flex;
   gap: 2%;
   height: 50%;
 }
 .cartel-1 {
   padding: 1% 1% 6% 1%;
-  background-color: crimson;
+  /*background-color: crimson;*/
   width: 100%;
   height: 100%;
 }
 .cartel-2 {
   padding: 1% 1% 6% 1%;
-  background-color: rgb(48, 26, 247);
+  /*background-color: rgb(48, 26, 247);*/
   width: 100%;
   height: 100%;
 }
 .cartel-3 {
   padding: 1% 1% 6% 1%;
-  background-color: rgb(29, 169, 204);
+  /*background-color: rgb(29, 169, 204);*/
   width: 100%;
   height: 100%;
 }
@@ -215,7 +216,7 @@ background-color: blue;
 .boton-especialidad {
   padding: 2rem 6rem;
   margin-left: 30%;
-  background-color: rgb(241, 168, 71);
+  background-color: rgba(241, 167, 71, 0.452);
   border-radius: 9px;
   margin-top: 10px;
   transition: 1s;
@@ -223,44 +224,44 @@ background-color: blue;
 
 .Link-Especialidad {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(58, 57, 57);
   font-size: 120%;
 }
 .boton-especialidad:hover,
 .boton-especialidad:active {
-  background-color: rgb(158, 81, 25);
+  background-color: rgba(158, 80, 25, 0.664);
   transform: translateY(-8px);
 }
 /*************************************************************************************************************
 ***********************************----SECCION Reservas-----*********************************************************/
 .reservas {
-  background-color: rgb(255, 14, 14);
+  background-color: rgba(27, 218, 43, 0.288);
   padding: 1%;
   height: 115rem;
 }
 .caja-reservas {
-  background-color: pink;
+  background-color: rgba(252, 219, 129, 0.144);
   padding: 1%;
   text-align: center;
 }
 .citas {
   font-size: 400%;
-  background-color: chartreuse;
+  /*background-color: chartreuse;*/
   padding: 1%;
 }
 .citas2 {
   font-size: 200%;
   color: rgba(0, 0, 0, 0.753);
-  background-color: rgb(185, 72, 95);
+  /*background-color: rgb(185, 72, 95);*/
   padding: 1%;
 }
 .reserva-formulario {
-  background-color: darkolivegreen;
+  /*background-color: darkolivegreen;*/
   padding: 1%;
   height: 85%;
 }
 .formulario {
-  background-color: darkslateblue;
+  /*background-color: darkslateblue;*/
   padding: 1%;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
@@ -269,32 +270,32 @@ background-color: blue;
   width: 100%;
 }
 .formulario-enviado {
-  background-color: crimson;
+  /*background-color: crimson;*/
   padding: 1%;
   height: 79.5%;
 }
 .formulario-1 {
-  background-color: deeppink;
+  /*background-color: deeppink;*/
   padding: 1%;
 }
 .formulario-2 {
-  background-color: rgb(132, 168, 146);
+  /*background-color: rgb(132, 168, 146);*/
   padding: 1%;
 }
 .formulario-3 {
-  background-color: rgb(28, 7, 112);
+  /*background-color: rgb(28, 7, 112);*/
   padding: 1%;
 }
 .formulario-4 {
-  background-color: deeppink;
+  /*background-color: deeppink;*/
   padding: 1%;
 }
 .formulario-5 {
-  background-color: rgb(24, 218, 98);
+  /*background-color: rgb(24, 218, 98);*/
   padding: 1%;
 }
 .formulario-6 {
-  background-color: rgb(176, 214, 5);
+  /*background-color: rgb(176, 214, 5);*/
   padding: 1%;
 }
 #nombre {
@@ -340,7 +341,7 @@ background-color: blue;
   text-align: justify;
 }
 .boton-envio {
-  background-color: peachpuff;
+  /*background-color: peachpuff;*/
   display: flex;
   justify-content: center;
 }
@@ -357,7 +358,7 @@ background-color: blue;
   transform: rotate3d(1, 5, -1, 360deg);
 }
 .caja-reserva-imagen {
-  background-color: rgb(179, 137, 100);
+  /*background-color: rgb(179, 137, 100);*/
   padding: 2%;
   width: 100%;
   height: 79.4%;
@@ -366,25 +367,26 @@ background-color: blue;
 }
 .super-tooth {
   padding: 1%;
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
   width: 100%;
   height: 100%;
+  margin-top: 1rem;
 }
 /*************************************************************************************************************
 ***********************************----SECCION Footer-----*********************************************************/
 .seccion-footer {
   padding: 1%;
-  background-color: rgb(148, 148, 148);
+  background-color: rgba(148, 148, 148, 0.178);
 }
 .caja-footer {
   padding: 2%;
-  background-color: rgba(255, 138, 255, 0.719);
+  /*background-color: rgba(255, 138, 255, 0.719);*/
   display: grid;
   grid-template-columns: repeat(3 1fr);
 }
 .caja-footer-1 {
   padding: 2%;
-  background-color: rgba(193, 255, 21, 0.685);
+  /*background-color: rgba(193, 255, 21, 0.685);*/
   grid-column: 1;
   font-size: 190%;
 }
@@ -393,14 +395,14 @@ background-color: blue;
 }
 .caja-footer-2 {
   padding: 2%;
-  background-color: rgba(16, 255, 223, 0.918);
+  /*background-color: rgba(16, 255, 223, 0.918);*/
   grid-column: 2;
   font-size: 190%;
   text-align: center;
 }
 .caja-red-social {
   padding: 2%;
-  background-color: rgba(193, 255, 21, 0.685);
+  /*background-color: rgba(193, 255, 21, 0.685);*/
   font-size: 170%;
   display: flex;
   justify-content: space-between;
@@ -408,14 +410,14 @@ background-color: blue;
 }
 .caja-footer-3 {
   padding: 1%;
-  background-color: rgba(248, 31, 183, 0.692);
+  /*background-color: rgba(248, 31, 183, 0.692);*/
   grid-column: 3;
   font-size: 190%;
   text-align: right;
 }
 .copyright {
   padding: 1%;
-  background-color: rgba(209, 22, 22, 0.801);
+  /*background-color: rgba(209, 22, 22, 0.801);*/
   text-align: center;
   font-size: 150%;
   color: rgba(0, 0, 0, 0.534);
@@ -432,5 +434,5 @@ background-color: blue;
 }
 .logo-footer {
   height: 3.5rem;
-  background-color: rgba(255, 255, 255, 0.815);
+  /*background-color: rgba(255, 255, 255, 0.815);*/
 }

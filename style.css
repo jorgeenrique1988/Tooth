@@ -25,10 +25,11 @@ background-color: rgba(27, 218, 43, 0.288);
 .Seccion-Navegador {
   padding: 1%;
   background-color: yellow;
+  background: linear-gradient(to right, yellow, red);
 }
 .Caja-Navegador {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 6fr;
   padding: 0.5%;
   width: 100%;
   height: 80%;
@@ -41,10 +42,10 @@ background-color: rgba(27, 218, 43, 0.288);
   font-size: 150%;
   gap: 8%;
   padding: 0%;
-  margin-left: 15%;
+  margin-left: 10%;
   height: 50%;
   /*background-color: red;*/
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .link-navegador {
@@ -52,38 +53,43 @@ background-color: rgba(27, 218, 43, 0.288);
   color: black;
 }
 .Indice-Navegador {
-  padding: 0.1%;
+  padding: 1rem 2rem 1rem 2rem;
   /*background-color: rgba(0, 0, 255, 0.527);*/
   font-size: 160%;
+  background-color: rgba(255, 0, 0, 0.301);
 }
 .Indice-Navegador-2 {
-  padding: 0.1%;
+  padding: 1rem 2rem 1rem 2rem;
   /*background-color: rgba(179, 179, 182, 0.384);*/
   font-size: 160%;
+  background-color: rgba(255, 0, 0, 0.315);
 }
 .Indice-Navegador-3 {
-  padding: 0.1%;
+  padding: 1rem 2rem 1rem 2rem;
   /*background-color: rgba(46, 238, 142, 0.322);*/
   font-size: 160%;
+  background-color: rgba(255, 0, 0, 0.356);
 }
 .Indice-Navegador-4 {
-  padding: 0.1%;
+  padding: 1rem 2rem 1rem 2rem;
   /*background-color: rgba(139, 62, 120, 0.452);*/
   font-size: 160%;
+  background-color: rgba(255, 0, 0, 0.384);
 }
 
 .logo-navegador-tooth {
   /*background-color: rgba(255, 251, 251, 0.774);*/
-  height: 80%;
-  width: 25%;
-  margin-left: 5%;
-  margin-top: 2%;
+  height: 100%;
+  width: 28%;
+  margin-left: 10%;
+  margin-top: 0.5%;
 }
 
 /*************************************************************************************************************
 ***********************************----SECCION HEROE-----*********************************************************/
 .seccion-heroe {
   background-color: yellow;
+  background: linear-gradient(to right, yellow, red);
   padding: 1%;
   height: 110rem;
 }
@@ -98,24 +104,26 @@ background-color: rgba(27, 218, 43, 0.288);
   padding: 1%;
   text-align: center;
   background-color: rgb(255, 255, 0);
+  background: linear-gradient(to right, yellow, red);
 }
 .premisa-heroe {
   font-size: 800%;
 }
 .nombre-negocio {
   font-size: 350%;
-  color: rgba(0, 0, 0, 0.493);
+  color: rgb(0, 0, 0);
   align-content: center;
 }
 .logo--nombre {
   height: 10rem;
   width: 18rem;
-  margin-top: 1%;
+  margin-top: 0%;
+  margin-right: 13rem;
 }
 .premisa-heroe-2 {
   font-size: 350%;
   /*background-color: rgb(187, 207, 11);*/
-  color: rgba(0, 0, 0, 0.603);
+  color: rgba(0, 0, 0, 0.63);
   text-align: center;
 }
 .texto-e-imagen {
@@ -144,7 +152,7 @@ background-color: rgba(27, 218, 43, 0.288);
   font-size: 700%;
 }
 .boton-heroe {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.541);
   margin-left: 37%;
   padding: 2%;
   font-size: 300%;
@@ -182,32 +190,35 @@ background-color: rgba(27, 218, 43, 0.288);
 .Seccion-cuerpo {
   padding: 1%;
   background-color: yellow;
+  background: linear-gradient(to right, yellow, red);
   width: 100%;
 }
 .caja-cuerpo {
   padding: 0;
-  background-color: yellow;
   display: flex;
-  gap: 2%;
-  height: 50%;
+  gap: 1%;
+  height: 40%;
 }
 .cartel-1 {
-  padding: 1% 1% 6% 1%;
+  padding: 1% 1% 1% 1%;
   /*background-color: crimson;*/
-  width: 100%;
+  width: 70%;
   height: 100%;
+  opacity: 1;
 }
 .cartel-2 {
-  padding: 1% 1% 6% 1%;
+  padding: 1% 1% 1% 1%;
   /*background-color: rgb(48, 26, 247);*/
-  width: 100%;
+  width: 70%;
   height: 100%;
+  opacity: 1;
 }
 .cartel-3 {
-  padding: 1% 1% 6% 1%;
+  padding: 1% 1% 1% 1%;
   /*background-color: rgb(29, 169, 204);*/
-  width: 100%;
+  width: 70%;
   height: 100%;
+  opacity: 1;
 }
 .especialidad {
   width: 100%;
@@ -216,7 +227,7 @@ background-color: rgba(27, 218, 43, 0.288);
 .boton-especialidad {
   padding: 2rem 6rem;
   margin-left: 30%;
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.301);
   border-radius: 9px;
   margin-top: 10px;
   transition: 1s;
@@ -236,11 +247,13 @@ background-color: rgba(27, 218, 43, 0.288);
 ***********************************----SECCION Reservas-----*********************************************************/
 .reservas {
   background-color: yellow;
+  background: linear-gradient(to right, yellow, red);
   padding: 1%;
   height: 115rem;
 }
 .caja-reservas {
   background-color: yellow;
+  background: linear-gradient(to right, yellow, red);
   padding: 1%;
   text-align: center;
 }
@@ -347,7 +360,7 @@ background-color: rgba(27, 218, 43, 0.288);
 }
 .Enviar {
   padding: 2rem 6rem;
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.219);
   border-radius: 8px;
   font-size: 60%;
   transition: 3s;
@@ -355,7 +368,6 @@ background-color: rgba(27, 218, 43, 0.288);
 .Enviar:hover,
 .Enviar:visited {
   cursor: pointer;
-  transform: rotate3d(1, 5, -1, 360deg);
 }
 .caja-reserva-imagen {
   /*background-color: rgb(179, 137, 100);*/
@@ -370,22 +382,22 @@ background-color: rgba(27, 218, 43, 0.288);
   /*background-color: blueviolet;*/
   width: 100%;
   height: 100%;
-  margin-top: 1rem;
+  margin-top: -2rem;
 }
 /*************************************************************************************************************
 ***********************************----SECCION Footer-----*********************************************************/
 .seccion-footer {
   padding: 1%;
-  background-color: yellow;
+  background: linear-gradient(to left, yellow, red);
 }
 .caja-footer {
-  padding: 2%;
+  padding: 1%;
   /*background-color: rgba(255, 138, 255, 0.719);*/
   display: grid;
   grid-template-columns: repeat(3 1fr);
 }
 .caja-footer-1 {
-  padding: 2%;
+  padding: 1%;
   /*background-color: rgba(193, 255, 21, 0.685);*/
   grid-column: 1;
   font-size: 190%;
@@ -401,7 +413,7 @@ background-color: rgba(27, 218, 43, 0.288);
   text-align: center;
 }
 .caja-red-social {
-  padding: 2%;
+  padding: 1%;
   /*background-color: rgba(193, 255, 21, 0.685);*/
   font-size: 170%;
   display: flex;
